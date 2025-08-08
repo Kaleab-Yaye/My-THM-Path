@@ -39,10 +39,25 @@ now you have goudn a command and you want to knwo hto to usse it what you do is 
 Get-help <the command you want to investigate>
 ```
 now get help my not work on the modle so what you do is like this
-![Uploading image.png…]()
+![Uploading image.png…](
+
+Ok small notes here;
+in powershell the [] arroudn a parmeter mean the parmeter is option you dont have to hard type it some smart commandes are positionals meaning they know when what the firs thign emdialty after the commadn is
+the [] after a data type means an array of that data type
+the <> is what you use to specifiy dat type look for eample
+```Powershell
+ Get-help Copy-item -detailed
+```
+you will see somthign like this under teh syntax
+```bash
+ Copy-Item [-Path] <string[]> [[-Destination] <string>]......
+```
+now what this mean is you dotn have to use the -path parmetor decalraion if you were to follow oder and also you can leave the [destinaaiotn] and the whole hting there you dont have to specify desitnatinon the curnt direcotry will eb where it will be copied on.
+
+#get alieas
+you use the get-alias commadn to see how soe what the shor names that represetn the comen commands are
 
 
-now what you do is run 
 
 
 
